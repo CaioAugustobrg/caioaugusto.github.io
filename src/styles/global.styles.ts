@@ -1,6 +1,6 @@
 import { createGlobalStyle } from 'styled-components';
 
-const GlobalHomeStyle = createGlobalStyle`
+const GlobalStyle = createGlobalStyle`
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 
 /* Box sizing rules */
@@ -92,4 +92,4 @@ button {
   // }
   
   `;
-export default GlobalHomeStyle;
+export default GlobalStyle;
