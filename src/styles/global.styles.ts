@@ -41,7 +41,7 @@ html:focus-within {
 body {
   min-height: 100vh;
   height: 100%;
-  font-family: 'Inter', sans-serif;
+  //font-family: 'Inter', sans-serif;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
 }
