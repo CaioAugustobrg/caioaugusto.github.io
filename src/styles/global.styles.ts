@@ -22,6 +22,8 @@ blockquote,
 dl,
 dd {
   margin: 0;
+  color: #a9a9b3
+
 }
 
 /* Remove list styles on ul, ol elements */
