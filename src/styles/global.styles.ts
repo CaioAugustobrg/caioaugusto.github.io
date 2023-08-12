@@ -22,7 +22,8 @@ blockquote,
 dl,
 dd {
   margin: 0;
-  color: #a9a9b3
+  color: #a9a9b3;
+  background-color: #232425;
 
 }
 
