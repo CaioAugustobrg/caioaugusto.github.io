@@ -62,6 +62,7 @@ padding-right: 8px;
 
 export const StyledAiOutlineMenu = styled(AiOutlineMenu)`
 font-size: 30px;
+padding-left: 8px;
 align-items: flex-end;
 `
 
