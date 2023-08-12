@@ -59,7 +59,7 @@ font-size: 35px;
     
 }
 `
-export const MyInformations = styled.div`
+export const MyInformations = styled.main`
 margin: 200px auto auto auto;
 height: 500px;
 width: 500px;
