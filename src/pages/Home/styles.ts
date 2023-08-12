@@ -28,15 +28,19 @@ margin: auto;
 align-items: center;
 justify-content: center;
 gap: 15px;
-
+a {
+  color: #a9a9b3;
+  width: 35px;
+  height: 35px;
+}
 `
 
 export const StyledAiFillLinkedin = styled(AiFillLinkedin)`
 font-size: 35px;
 &:hover {
     cursor: pointer;
-    transition: all .3s ease-out;
-  transform: scale(1.2);
+    transition: all .2s ease-out;
+  transform: scale(1.1);
     
 }
 /* color: #a9a9b3 */
@@ -45,8 +49,8 @@ export const StyledAiFillGithub = styled(AiOutlineGithub)`
 font-size: 35px;
 &:hover {
     cursor: pointer;
-    transition: all .3s ease-out;
-  transform: scale(1.2);
+    transition: all .2s ease-out;
+  transform: scale(1.1);
     
 }
 `
@@ -54,8 +58,8 @@ export const StyledAiMediumSquare = styled(AiFillMediumSquare)`
 font-size: 35px;
 &:hover {
     cursor: pointer;
-    transition: all .3s ease-out;
-  transform: scale(1.2);
+    transition: all .2s ease-out;
+  transform: scale(1.1);
     
 }
 `
