@@ -6,6 +6,7 @@ import { Container,MyInformations,Name,
   StyledAiMediumSquare
 } from "./styles";
 import myPicture from '../../assets/myPicture.jpeg'
+import { Propeties } from "../../components/Header/styles";
 
 const Home = () => {    
 
@@ -27,7 +28,7 @@ const Home = () => {
                     }}
                   ></div>
                   <Name>Caio Augusto</Name>
-                  <h4>Desenvolvedor full-stack</h4>
+                  <Propeties>Desenvolvedor full-stack</Propeties>
                   <SocialMedia>
                   <StyledAiFillLinkedin />
                   <StyledAiFillGithub />
