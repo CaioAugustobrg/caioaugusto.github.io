@@ -70,3 +70,8 @@ width: 500px;
 
 flex-direction: column;
 `
+
+export const Position = styled.h3`
+min-width: 50px;
+padding: 0  30px;
+`

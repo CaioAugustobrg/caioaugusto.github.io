@@ -1,12 +1,12 @@
 import React from "react";
 import { Container,MyInformations,Name,
+  Position,
   SocialMedia,
   StyledAiFillGithub,
   StyledAiFillLinkedin,
   StyledAiMediumSquare
 } from "./styles";
 import myPicture from '../../assets/myPicture.jpeg'
-import { Propeties } from "../../components/Header/styles";
 
 const Home = () => {    
 
@@ -27,7 +27,7 @@ const Home = () => {
                     }}
                   ></div>
                   <Name>Caio Augusto</Name>
-                  <Propeties>Desenvolvedor full-stack</Propeties>
+                  <Position>Desenvolvedor full-stack</Position>
                   <SocialMedia>
                     <a href="https://www.linkedin.com/in/caioaugustobrg/" target="_blank">
                       <StyledAiFillLinkedin />
