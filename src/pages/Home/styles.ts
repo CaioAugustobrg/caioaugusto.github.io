@@ -67,11 +67,11 @@ export const MyInformations = styled.main`
 margin: 200px auto auto auto;
 height: 500px;
 width: 500px;
-
 flex-direction: column;
 `
 
 export const Position = styled.h3`
 min-width: 50px;
 padding: 0  30px;
+font-weight: 350;
 `
