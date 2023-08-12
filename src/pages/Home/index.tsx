@@ -13,7 +13,6 @@ const Home = () => {
   return (
             <Container>
               <MyInformations>
-
               <div
                     style={{
                       margin: 'auto',
@@ -30,9 +29,15 @@ const Home = () => {
                   <Name>Caio Augusto</Name>
                   <Propeties>Desenvolvedor full-stack</Propeties>
                   <SocialMedia>
-                  <StyledAiFillLinkedin />
+                    <a href="https://www.linkedin.com/in/caioaugustobrg/" target="_blank">
+                      <StyledAiFillLinkedin />
+                    </a>
+                    <a href="https://github.com/CaioAugustobrg" target="_blank">
                   <StyledAiFillGithub />
+                    </a>
+                    <a href="https://medium.com/@CaioAugustobrg" target="_blank">
                   <StyledAiMediumSquare />
+                    </a>
                   </SocialMedia>
                       </MyInformations>
                 </Container>
