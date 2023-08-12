@@ -24,7 +24,7 @@ align-items: center;
 export const Propeties = styled.li`
 min-width: 50px;
 padding: 0  30px;
-
+list-style: none;
 &:hover {
     cursor: pointer;
     transition: all .2s ease-out;
