@@ -18,6 +18,7 @@ ul {
 export const MyName = styled.div`
 display: flex;
 align-items: center;
+background-color: inherit;
 
 `
 
@@ -42,17 +43,20 @@ list-style: none;
 export const NameText = styled.h3`
 color: #348feb;
 padding-right: 8px;
+background-color: inherit;
 `
 
 
 
 export const OpenedCurlyBraces = styled.h2`
+background-color: inherit;
 color: #bd34eb;
 
 `
 
 export const ClosedCurlyBraces = styled.h2`
 color: #bd34eb;
+background-color: inherit;
 padding-right: 8px;
 @media (max-width: ${breakpoint}) {
     display: flex;
