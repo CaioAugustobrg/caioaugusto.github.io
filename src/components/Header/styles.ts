@@ -36,7 +36,11 @@ color: #ffffff;
 padding-right: 8px;
 `
 
-export const CurlyBraces = styled.h2`
+export const OpenedCurlyBraces = styled.h2`
 color: #bd34eb;
+`
 
+export const ClosedCurlyBraces = styled.h2`
+color: #bd34eb;
+padding-right: 8px;
 `

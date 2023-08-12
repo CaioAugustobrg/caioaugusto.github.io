@@ -1,13 +1,14 @@
 import React from "react";
-import { Container, MyName,Propeties, LetText ,NameText,EqualSign, CurlyBraces} from "./styles";
+import { Container, MyName,Propeties, LetText ,NameText,EqualSign, OpenedCurlyBraces,ClosedCurlyBraces} from "./styles";
 
 const Header = () => {
-    let openningCurlyBrances = '{' 
+    let openedCurlyBrances = '{' 
+    let closedCurlyBraces = '}'
     // console.log(Caio)
     return (
         <Container>
             <MyName>
-            <LetText>let</LetText><NameText>Caio</NameText><EqualSign>=</EqualSign><CurlyBraces>{openningCurlyBrances}</CurlyBraces>
+            <LetText>let</LetText><NameText>Caio</NameText><EqualSign>=</EqualSign><OpenedCurlyBraces>{openedCurlyBrances}</OpenedCurlyBraces>
             </MyName>
             <Propeties>
            CV
@@ -27,7 +28,7 @@ const Header = () => {
             <Propeties>
             en
             </Propeties>
-
+            <ClosedCurlyBraces>{closedCurlyBraces}</ClosedCurlyBraces>
 
         </Container>
     )
