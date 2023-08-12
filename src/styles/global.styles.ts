@@ -24,16 +24,16 @@ dd {
   margin: 0;
   color: #a9a9b3;
   background-color: #232425;
-
+  
 }
 
 /* Remove list styles on ul, ol elements */
-/* ul,
+ul,
 ol {
   list-style: none;
   padding: 0;
   margin: 0;
-} */
+} 
 
 /* Set core root defaults */
 html:focus-within {
