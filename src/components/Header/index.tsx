@@ -75,7 +75,7 @@ const Header = () => {
                     <MenuToMobile>
                     {menuOptions.map((item, index) => (
                         <ul key={index}>
-                    <li >{item.title}</li>
+                    <Propeties >{item.title}</Propeties>
                         </ul>
         ))}
         <ClosedCurlyBraces>{closedCurlyBraces}</ClosedCurlyBraces>

@@ -31,7 +31,12 @@ padding: 0  30px;
   transform: scale(1.1);
     
 }
-//height: 10px;
+@media (max-width: ${breakpoint}) {
+    margin: 0;
+    min-width: auto;
+    padding: 5px;
+    font-weight: bold;
+  }
 `
 
 export const NameText = styled.h3`
@@ -43,6 +48,7 @@ padding-right: 8px;
 
 export const OpenedCurlyBraces = styled.h2`
 color: #bd34eb;
+
 `
 
 export const ClosedCurlyBraces = styled.h2`
@@ -67,6 +73,7 @@ export const MenuToMobile = styled.nav`
   right: 0;
   border: none;
   margin: 0;
+  border-radius: 2px;
   padding: 10px;
   ul {
     display: flex;
@@ -74,9 +81,6 @@ export const MenuToMobile = styled.nav`
 align-items: flex-start;
 padding: 0;
     list-style: none;
-    li {
-        margin: 0;
-padding: 5px;
-    }
+    
   }
 `
