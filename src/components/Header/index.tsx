@@ -6,6 +6,8 @@ NameText,
 OpenedCurlyBraces,
 ClosedCurlyBraces,
 StyledAiOutlineMenu,
+LetText,
+EqualSign,
 MenuToMobile} from "./styles";
 const Header = () => {
     const [windowWidth, setWindowWidth] = useState(window.innerWidth);
@@ -35,7 +37,8 @@ const Header = () => {
             title: 'Publications'
         },
         {
-            title: 'Contact'
+            title: 'Contact',
+            path: '/contact'
         },
         {
             title: 'en'
@@ -52,12 +55,15 @@ const Header = () => {
             <Container>
             
             <MyName>
-            <NameText>let</NameText><NameText>Caio</NameText><NameText>=</NameText><OpenedCurlyBraces>{openedCurlyBrances}</OpenedCurlyBraces>
+            <LetText>let</LetText><NameText>Caio</NameText><EqualSign>=</EqualSign><OpenedCurlyBraces>{openedCurlyBrances}</OpenedCurlyBraces>
             </MyName>
        
             {menuOptions.map((item, index) => (
                         <ul key={index}>
-                    <Propeties >{item.title}</Propeties>
+                  <Propeties>
+  <a href={item.path}>{item.title}</a>
+</Propeties>
+
                         </ul>
         ))}
           
@@ -75,7 +81,7 @@ const Header = () => {
                     <MenuToMobile>
                     {menuOptions.map((item, index) => (
                         <ul key={index}>
-                    <Propeties >{item.title}</Propeties>
+                    <Propeties><a href={item.path}>{item.title}</a></Propeties>
                         </ul>
         ))}
         <ClosedCurlyBraces>{closedCurlyBraces}</ClosedCurlyBraces>

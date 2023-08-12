@@ -24,6 +24,7 @@ dd {
   margin: 0;
   color: #a9a9b3;
   background-color: #232425;
+  letter-spacing: 0.05em;
   
 }
 
@@ -47,6 +48,7 @@ body {
   //font-family: 'Inter', sans-serif;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
+  
 }
 
 /* Remove text-decoration on links */

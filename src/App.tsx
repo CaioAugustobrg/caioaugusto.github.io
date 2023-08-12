@@ -5,6 +5,7 @@ import viteLogo from '/vite.svg'
 import GlobalStyle from './styles/global.styles'
 import Header from './components/Header'
 import AppRoutes from './components/routes'
+import Footer from './components/Footer'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -14,6 +15,7 @@ function App() {
       <Header />
       <AppRoutes />
       <GlobalStyle />
+      <Footer />
     </>
   )
 }

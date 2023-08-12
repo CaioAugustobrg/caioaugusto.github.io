@@ -19,7 +19,10 @@ export const MyName = styled.div`
 display: flex;
 align-items: center;
 background-color: inherit;
-
+@media (max-width: ${breakpoint}) {
+    
+    margin-left: 16px;
+  }
 `
 
 export const Propeties = styled.li`
@@ -30,7 +33,7 @@ list-style: none;
     cursor: pointer;
     transition: all .2s ease-out;
   transform: scale(1.1);
-    
+   
 }
 @media (max-width: ${breakpoint}) {
     margin: 0;
@@ -38,16 +41,27 @@ list-style: none;
     padding: 5px;
     font-weight: bold;
   }
+   a {
+      color: inherit;
+    }
 `
 
 export const NameText = styled.h3`
+color: #6fb7ed;
+padding-right: 8px;
+background-color: inherit;
+`
+export const LetText = styled.h3`
 color: #348feb;
 padding-right: 8px;
 background-color: inherit;
 `
 
-
-
+export const EqualSign = styled.h3`
+color: #ffffff;
+padding-right: 8px;
+background-color: inherit;
+`
 export const OpenedCurlyBraces = styled.h2`
 background-color: inherit;
 color: #bd34eb;
@@ -66,8 +80,10 @@ padding-right: 8px;
 
 export const StyledAiOutlineMenu = styled(AiOutlineMenu)`
 font-size: 30px;
-padding-left: 8px;
-align-items: flex-end;
+margin-right: 16px;
+justify-content: right;
+margin-left: auto;
+//align-items: flex-end;
 `
 
 export const MenuToMobile = styled.nav`

@@ -6,7 +6,7 @@ export const Container = styled.div`
   height: 100%;
   //background-color: green;
   align-items: center;
-  margin: 0 auto;
+  margin: auto;
   justify-content: center;
   /* height: auto;   */
   text-align: center;
@@ -66,7 +66,7 @@ font-size: 35px;
 export const MyInformations = styled.main`
 margin: 200px auto auto auto;
 height: 500px;
-width: 500px;
+/* width: 500px; */
 flex-direction: column;
 `
 
