@@ -38,7 +38,7 @@ const Header = () => {
         },
         {
             title: 'Contact',
-            path: '/contact'
+            path: '/https://caioaugusto-github-io-caioaugusto.vercel.app/contact'
         },
         {
             title: 'en'

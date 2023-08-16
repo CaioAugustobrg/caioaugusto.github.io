@@ -12,7 +12,7 @@ const AppRoutes = () => {
 		<Router>
 			<Routes>
 				<Route path='/' element={<Home />} />
-				<Route path='/https://caioaugusto-github-io-caioaugusto.vercel.app' element={<Contact />} />
+				<Route path='/contact' element={<Contact />} />
 				
 				
 			</Routes>
