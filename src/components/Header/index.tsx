@@ -28,7 +28,8 @@ const Header = () => {
 
     let menuOptions = [
         {
-            title: 'CV'
+            title: 'CV',
+            path: 'resume'
         },
         {
             title: 'Projects'
