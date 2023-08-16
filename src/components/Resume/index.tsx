@@ -1,14 +1,10 @@
-import {ContactDetail,
-        ContactInfo,
-        ContactTitle,
+import {
         Container,
         Education,
         EducationDetails,
         EducationTitle,
-        Link,
         SkillBigItem,
         SkillItem,
-        SkillList,
         Summary,
         SummaryText,
         SummaryTitle
