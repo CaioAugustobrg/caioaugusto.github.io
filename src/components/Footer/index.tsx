@@ -1,11 +1,17 @@
-import { Container } from "./styles"
+import { Container, Rights, ToHome } from "./styles"
 
 const Footer = () => {
     return (
         <Container>
             
-            <span>© 2023</span>
-<a href="/">Caio Augusto da Silva Braga - Home</a>
+            <Rights><p>
+                © 2023
+                </p>
+                </Rights>
+<ToHome> <a  href="/">
+    Caio Augusto da Silva Braga - Home
+    </a>
+    </ToHome>
 
                 </Container>
     )

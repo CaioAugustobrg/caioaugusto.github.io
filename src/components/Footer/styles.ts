@@ -1,25 +1,34 @@
+// styles.js
 import { styled } from "styled-components";
+const breakpoint = 768;
 
 export const Container = styled.footer`
-width: 100%;
-height: 70px;
-margin-top: 120px;
-display: flex;
-justify-content: center;
-align-items: center;
-/* background-color: #1b1c1d; */
-outline: 0;
-bottom: 0;
-span::after {
-    content: "•";
-    padding: 0 10px;
+    width: 100%;
+    height: 70px;
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    outline: 0;
+    bottom: 0;
 
-}
+    @media (max-width: ${breakpoint}px) {
+        flex-direction: column;
+        width: 100%;
+    }
+`;
 
-a {
-    
-    text-decoration: underline;
-    color: #a9a9b3;
+export const Rights = styled.span`
+    ::after {
+        content: "•";
+        padding: 0 15px;
+    }
+`;
 
-}
-`
+export const ToHome = styled.span`
+    a {
+        text-decoration: underline;
+        color: #a9a9b3;
+    }
+`;
