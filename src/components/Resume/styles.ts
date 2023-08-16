@@ -2,8 +2,9 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   font-family: Arial, sans-serif;
-  margin: 20px;
+  margin: auto;
   display: flex;
+  width: 715px;
   flex-direction: column;
   
 `;
@@ -76,4 +77,5 @@ export const SummaryTitle = styled.h2`
 
 export const SummaryText = styled.p`
   font-size: 1rem;
+text-align: justify;
 `;
