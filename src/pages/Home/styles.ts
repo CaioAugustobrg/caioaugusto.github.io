@@ -11,6 +11,7 @@ export const Container = styled.div`
   /* height: auto;   */
   text-align: center;
   flex-direction: column;
+  
 `;
 
 export const Name = styled.h1`

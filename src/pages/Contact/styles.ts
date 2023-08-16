@@ -35,7 +35,9 @@ li {
     font-size: 16px;
     margin-left: 70px;
     text-decoration: underline;
+    
     a {
+      cursor: pointer;
       color: inherit;
     }
 }

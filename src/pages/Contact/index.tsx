@@ -1,30 +1,30 @@
-import { ContactDiv, ContactString, Container,EmailsDiv,EmailString } from "./styles";
+import { ContactDiv, ContactString, Container, EmailsDiv, EmailString } from './styles';
+
+const openEmailInNewTab = () => {
+    window.open('mailto:caioaugustobrg@gmail.com');
+};
 
 const Contact = () => {
     return (
         <Container>
             <ContactDiv>
-            <ContactString>
-                Contact
-                </ContactString>
+                <ContactString>Contact</ContactString>
                 <EmailsDiv>
-                <EmailString>
-                E-mails:
-                </EmailString>
-                <li><a href="#">
-                    caioaugustobrg@gmail.com
-                    </a>
+                    <EmailString>E-mails:</EmailString>
+                    <li>
+                        <a onClick={openEmailInNewTab}>
+                            caioaugustobrg@gmail.com
+                        </a>
                     </li>
                     <EmailString>
-                    <a href="https://linktr.ee/caioaugustobraga" target="_blank">
-                Linktree
-                    </a>
-                </EmailString>
+                        <a href="https://linktr.ee/caioaugustobraga" target="_blank" rel="noopener noreferrer">
+                            Linktree
+                        </a>
+                    </EmailString>
                 </EmailsDiv>
-                
             </ContactDiv>
-            </Container>
+        </Container>
+    );
+};
 
-    )
-}
 export default Contact;
