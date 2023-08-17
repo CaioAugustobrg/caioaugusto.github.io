@@ -4,9 +4,9 @@ import {
 	Route,
 	Routes
 } from 'react-router-dom';
-import Home from '../../pages/Home'
-import Contact from '../../pages/Contact'
-import Resume from '../Resume';
+import Home from '../pages/Home'
+import Contact from '../pages/Contact'
+import Resume from '../pages/Resume';
 
 const AppRoutes = () => {
 	return (

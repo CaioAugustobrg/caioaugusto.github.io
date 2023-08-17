@@ -44,6 +44,13 @@ export const EducationTitle = styled.h2`
 export const EducationDetails = styled.ul`
   list-style: disc;
   margin-left: 20px;
+ p {
+  text-align: justify;
+   margin-left: 20px;
+   margin-bottom: 10px;
+   text-indent: 50px;
+     }
+
 `;
 
 export const SkillList = styled.ul`
@@ -60,10 +67,17 @@ export const SkillItem = styled.li`
 list-style: circle;
   font-size: 1rem;
   margin-left: 20px;
+  text-align: justify;
+   
 `;
 export const SkillBigItem = styled.li`
-  
+  a {
+    color: inherit;
+    text-decoration: underline;
+  }
+  margin: 5x 0;
   font-size: 1rem;
+ 
 `;
 
 export const Summary = styled.div`
