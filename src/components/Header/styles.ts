@@ -71,7 +71,7 @@ color: #bd34eb;
 export const ClosedCurlyBraces = styled.h2`
 color: #bd34eb;
 background-color: inherit;
-padding-right: 8px;
+/* padding-right: 8px; */
 @media (max-width: ${breakpoint}) {
     display: flex;
   }

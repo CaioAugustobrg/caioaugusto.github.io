@@ -1,13 +1,13 @@
 import styled from 'styled-components';
 const breakpoint = '768px'
-export const Container = styled.div`
+export const Container = styled.main`
   font-family: Arial, sans-serif;
   margin: auto;
   display: flex;
-  width: 715px;
+  width: 720px;
   flex-direction: column;
   @media (max-width: ${breakpoint}) {
-width: 90%;
+width: 95%;
 display: flex;
 justify-content: center;
 }
@@ -54,7 +54,7 @@ export const EducationDetails = styled.ul`
  p {
   text-align: justify;
    margin-left: 20px;
-   margin-bottom: 10px;
+   margin-bottom: 7px;
    text-indent: 50px;
    @media (max-width: ${breakpoint}) {
 
@@ -85,7 +85,7 @@ export const SkillBigItem = styled.li`
     color: inherit;
     text-decoration: underline;
   }
-  margin: 5x 0;
+  margin: 10px 0;
   font-size: 1rem;
  
 `;

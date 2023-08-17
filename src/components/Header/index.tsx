@@ -35,7 +35,8 @@ const Header = () => {
             title: 'Projects'
         },
         {
-            title: 'Publications'
+            title: 'Publications',
+            path: '/publications'
         },
         {
             title: 'Contact',

@@ -1,3 +1,4 @@
+import MainTitle from '../../components/MainTitle';
 import {
         Container,
         Education,
@@ -16,22 +17,22 @@ const Resume = () => {
 
         <Container>
           <Education>
+          <MainTitle title='Curriculum in a nutshell' />
             <EducationTitle>Education</EducationTitle>
             <EducationDetails>
               <SkillBigItem>História (Licenciatura) -- 2019-2023 -- Universidade de Brasília (UnB)</SkillBigItem>
               <SkillBigItem>Ciência da Computação (Bacharelado) -- 2022-2026 -- Universidade Católica de Brasília (UCB)</SkillBigItem>
+              <SkillBigItem>English -- 2019-2025 -- Wizard by Pearson</SkillBigItem>
             </EducationDetails>
           </Education>
 
           <Education>
             <EducationTitle>Professional experience</EducationTitle>
             <EducationDetails>
-            <SkillBigItem><a href='https://simplificadoctor.com' target="_blank" rel="noopener noreferrer">Simplifica Doctor</a></SkillBigItem>
-
+            <SkillBigItem><a href='https://simplificadoctor.com' target="_blank" rel="noopener noreferrer">Simplifica Doctor</a> -- (04/2023 - Today)  </SkillBigItem>
             <p>
             Once upon a time, there was no need for an intersection between dental education and teaching software. However, today,
               an indispensable platform will be created to offer users interested in dentistry the possibility of accessing knowledge produced by its experts.
-              
               </p>
               <p>
               Moving forward, i have got an objective: to examine the "Simplifica Doctor" platform in order to highlight the choices made during its development.

@@ -1,7 +1,6 @@
 import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyle = createGlobalStyle`
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 
 /* Box sizing rules */
 *,
@@ -24,8 +23,8 @@ dd {
   margin: 0;
   color: #a9a9b3;
   background-color: #232425;
-  letter-spacing: 0.05em;
-  
+  letter-spacing: 0.08em;
+
 }
 
 /* Remove list styles on ul, ol elements */
@@ -48,7 +47,7 @@ body {
   //font-family: 'Inter', sans-serif;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
-  
+  font-family: Inter, -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", Helvetica, Arial, sans-serif;
 }
 
 /* Remove text-decoration on links */
