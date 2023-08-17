@@ -96,10 +96,12 @@ const Resume = () => {
           <Summary>
             <SummaryTitle>Resumo Profissional</SummaryTitle>
             <SummaryText>
+              <p>
               Sou desenvolvedor front end, estou cursando o último semestre do curso de História
               (Licenciatura) pela universidade federal de Brasília. Entretanto, houve algo nos algoritmos que me encantou (tanto que dei início ao curso de Ciência da Computação). Atualmente estou desenvolvendo um projeto (remotamente), para o Simplifica Doctor. Plataforma escrita em linguagem Javascript; onde estou tendo a oportunidade de aplicar e desenvolver habilidades de: Trabalho em equipe, Amazon S3, Desenvolvedor de back end, Express.js, Banco de dados, HTML5, Desenvolvedor de front end, Desenvolvedor de software, Inglês, TypeScript, Git, React.js, JavaScript, CSS.
               Instrutor voluntário de programação SkCoders – ano de 2023, onde desenvolvi habilidades de trabalho em equipe e JavaScript.
               Programo todos os dias e isso tornou-se um hábito, estou sempre em busca de conhecimento e aperfeiçoamento.
+              </p>
             </SummaryText>
           </Summary>
         </Container>

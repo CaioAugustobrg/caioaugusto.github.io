@@ -102,4 +102,9 @@ export const SummaryTitle = styled.h2`
 export const SummaryText = styled.p`
   font-size: 1rem;
 text-align: justify;
+ p {
+  text-align: justify;
+   margin-bottom: 10px;
+   text-indent: 50px;
+ }
 `;
