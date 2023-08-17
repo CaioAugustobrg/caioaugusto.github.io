@@ -1,5 +1,5 @@
 import MainTitle from '../../components/MainTitle';
-import { ContactDiv, ContactString, Container, EmailsDiv, EmailString } from './styles';
+import { ContactDiv, Container, EmailsDiv, EmailString } from './styles';
 
 const openEmailInNewTab = () => {
     window.open('mailto:caioaugustobrg@gmail.com');
