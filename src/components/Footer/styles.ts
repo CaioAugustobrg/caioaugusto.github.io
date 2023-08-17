@@ -5,7 +5,7 @@ const breakpoint = 768;
 export const Container = styled.footer`
     width: 100%;
     height: 70px;
-    margin-top: 120px;
+    margin-top: 75px;
     display: flex;
     justify-content: center;
     align-items: center;

@@ -20,7 +20,7 @@ width: 100%;
 max-width: 800px;
 text-align: left;
 /* padding: 20px; */
-height: 660px;
+height: 705px;
 margin: 20px auto;
 
 `;
