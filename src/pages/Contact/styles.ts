@@ -1,5 +1,5 @@
 import { styled } from "styled-components";
-
+const breakpoint = '768px'
 export const Container = styled.div`
   box-sizing: border-box;
   width: 100%;
@@ -11,6 +11,12 @@ export const Container = styled.div`
   /* height: auto;   */
   text-align: center;
   flex-direction: column;
+  @media (max-width: ${breakpoint}) {
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        overflow: hidden;
+    }
 `;
 
 export const ContactDiv = styled.main`
