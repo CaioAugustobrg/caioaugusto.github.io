@@ -1,3 +1,4 @@
+import MainTitle from '../../components/MainTitle';
 import { ContactDiv, ContactString, Container, EmailsDiv, EmailString } from './styles';
 
 const openEmailInNewTab = () => {
@@ -8,7 +9,7 @@ const Contact = () => {
     return (
         <Container>
             <ContactDiv>
-                <ContactString>Contact</ContactString>
+                <MainTitle title='Contact' />
                 <EmailsDiv>
                     <EmailString>E-mails:</EmailString>
                     <li>

@@ -1,31 +1,27 @@
 import { styled } from "styled-components";
 const breakpoint = '768px'
 export const Container = styled.div`
-  box-sizing: border-box;
-  width: 100%;
-  height: 100%;
-  //background-color: green;
-  align-items: center;
-  margin: auto;
-  justify-content: center;
-  /* height: auto;   */
-  text-align: center;
-  flex-direction: column;
+ width: 100%;
+ max-width: 720px;
+ text-align: left;
+ //padding: 20px;
+overflow: hidden;
+ margin: auto;
   @media (max-width: ${breakpoint}) {
-        width: 70%;
-        margin-left: auto;
-        margin-right: auto;
-        overflow: hidden;
-    }
+width: 95%;
+display: flex;
+justify-content: center;
+
+}
 `;
 
 export const ContactDiv = styled.main`
-margin: 200px auto auto auto;
-height: 500px;
-width: 680px;
+width: 100%;
+max-width: 800px;
 text-align: left;
-/* width: 500px; */
-flex-direction: column
+/* padding: 20px; */
+height: 660px;
+margin: 20px auto;
 
 `;
 
