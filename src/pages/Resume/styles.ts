@@ -1,12 +1,16 @@
 import styled from 'styled-components';
-
+const breakpoint = '768px'
 export const Container = styled.div`
   font-family: Arial, sans-serif;
   margin: auto;
   display: flex;
   width: 715px;
   flex-direction: column;
-  
+  @media (max-width: ${breakpoint}) {
+width: 90%;
+display: flex;
+justify-content: center;
+}
 `;
 
 export const ContactInfo = styled.div`
@@ -34,6 +38,9 @@ export const ProfileLink = styled(Link)`
 
 export const Education = styled.div`
   margin: 20px 0;
+  @media (max-width: ${breakpoint}) {
+justify-content: center;
+width: 90%}
 `;
 
 export const EducationTitle = styled.h2`
@@ -49,6 +56,9 @@ export const EducationDetails = styled.ul`
    margin-left: 20px;
    margin-bottom: 10px;
    text-indent: 50px;
+   @media (max-width: ${breakpoint}) {
+
+}
      }
 
 `;

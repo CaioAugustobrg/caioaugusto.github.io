@@ -29,7 +29,7 @@ const Header = () => {
     let menuOptions = [
         {
             title: 'CV',
-            path: 'resume'
+            path: '/resume'
         },
         {
             title: 'Projects'
@@ -39,7 +39,7 @@ const Header = () => {
         },
         {
             title: 'Contact',
-            path: 'contact'
+            path: '/contact'
         },
         {
             title: 'en'
