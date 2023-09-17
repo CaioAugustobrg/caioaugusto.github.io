@@ -11,7 +11,7 @@ import {
 	SummaryTitle
 } from "./styles";
 
-import React from "react";
+
 const Resume = () => {
 	return (
 
