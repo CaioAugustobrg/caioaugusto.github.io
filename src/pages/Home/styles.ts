@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import {AiFillLinkedin, AiOutlineGithub,AiFillMediumSquare} from 'react-icons/ai'
+import {AiFillLinkedin, AiOutlineGithub,AiFillMediumSquare} from "react-icons/ai";
 export const Container = styled.div`
   box-sizing: border-box;
   width: 100%;
@@ -18,7 +18,7 @@ export const Name = styled.h1`
 font-weight: bold;
 margin-top: 15px;
 margin-bottom: 15px;
-`
+`;
 
 export const SocialMedia = styled.div`
 width: auto;
