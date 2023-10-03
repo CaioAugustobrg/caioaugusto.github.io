@@ -10,7 +10,8 @@ export const Container = styled.footer`
     align-items: center;
     overflow: hidden;
     outline: 0;
-    bottom: 0;
+    margin-bottom: 20px;
+    
 
     @media (max-width: ${breakpoint}px) {
         flex-direction: column;
