@@ -1,12 +1,14 @@
 import { styled } from "styled-components";
-const breakpoint = '768px'
+const breakpoint = "768px";
 export const Container = styled.div`
  width: 100%;
  max-width: 720px;
  text-align: left;
+ height: 90vh;
+
  //padding: 20px;
 overflow: hidden;
- margin: auto;
+ margin-bottom: 15px;
   @media (max-width: ${breakpoint}) {
 width: 95%;
 display: flex;

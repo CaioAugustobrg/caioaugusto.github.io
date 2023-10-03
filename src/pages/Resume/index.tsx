@@ -1,3 +1,4 @@
+import React from "react";
 import MainTitle from "../../components/MainTitle";
 import {
 	Container,
@@ -10,7 +11,6 @@ import {
 	SummaryText,
 	SummaryTitle
 } from "./styles";
-
 
 const Resume = () => {
 	return (
