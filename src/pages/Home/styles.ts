@@ -3,10 +3,10 @@ import {AiFillLinkedin, AiOutlineGithub,AiFillMediumSquare} from "react-icons/ai
 export const Container = styled.div`
   box-sizing: border-box;
   width: 100%;
-  height: 58vh;
+  height: 65vh;
   //background-color: green;
   align-items: center;
-  margin: auto;
+
   justify-content: center;
   /* height: auto;   */
   text-align: center;

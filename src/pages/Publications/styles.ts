@@ -8,6 +8,7 @@ export const Container = styled.div`
  //padding: 20px;
 overflow: hidden;
  margin: auto;
+ height: 85vh;
   @media (max-width: ${breakpoint}) {
 width: 95%;
 display: flex;
