@@ -1,19 +1,20 @@
-import { Container, Rights, ToHome } from "./styles"
+import { Container, Rights, ToHome } from "./styles";
+import React from "react";
 
 const Footer = () => {
-    return (
-        <Container>
+	return (
+		<Container>
             
-            <Rights><p>
+			<Rights><p>
                 © 2023
-                </p>
-                </Rights>
-<ToHome> <a  href="/">
+			</p>
+			</Rights>
+			<ToHome> <a  href="/">
     Caio Augusto da Silva Braga - Home
-    </a>
-    </ToHome>
+			</a>
+			</ToHome>
 
-                </Container>
-    )
-}
+		</Container>
+	);
+};
 export default Footer;

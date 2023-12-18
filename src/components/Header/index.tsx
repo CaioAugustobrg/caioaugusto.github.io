@@ -1,100 +1,101 @@
-import { useEffect, useState } from "react";
+import React ,{ useEffect, useState } from "react";
 import { Container,
-MyName,
-Propeties,
-NameText,
-OpenedCurlyBraces,
-ClosedCurlyBraces,
-StyledAiOutlineMenu,
-LetText,
-EqualSign,
-MenuToMobile} from "./styles";
+	MyName,
+	Propeties,
+	NameText,
+	OpenedCurlyBraces,
+	ClosedCurlyBraces,
+	StyledAiOutlineMenu,
+	LetText,
+	EqualSign,
+	MenuToMobile} from "./styles";
+
 const Header = () => {
-    const [windowWidth, setWindowWidth] = useState(window.innerWidth);
-    const [mobileMenu, setMobileMenu] = useState(false)
-    let openedCurlyBrances = '{' 
-    let closedCurlyBraces = '}'
-    // console.log(Caio)
-    useEffect(() => {
+	const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+	const [mobileMenu, setMobileMenu] = useState(false);
+	const openedCurlyBrances = "{"; 
+	const closedCurlyBraces = "}";
+	// console.log(Caio)
+	useEffect(() => {
 		const handleResize = () => {
 			setWindowWidth(window.innerWidth);
 		};
-		window.addEventListener('resize', handleResize);
+		window.addEventListener("resize", handleResize);
 
 		return () => {
-			window.removeEventListener('resize', handleResize);
+			window.removeEventListener("resize", handleResize);
 		};
 	}, []);
 
-    let menuOptions = [
-        {
-            title: 'CV',
-            path: '/resume'
-        },
-        {
-            title: 'Projects'
-        },
-        {
-            title: 'Publications',
-            path: '/publications'
-        },
-        {
-            title: 'Contact',
-            path: '/contact'
-        },
-        {
-            title: 'en'
-        },
+	const menuOptions = [
+		{
+			title: "CV",
+			path: "/resume"
+		},
+		{
+			title: "Projects"
+		},
+		{
+			title: "Publications",
+			path: "/publications"
+		},
+		{
+			title: "Contact",
+			path: "/contact"
+		},
+		{
+			title: "en"
+		},
 
-    ]
-    const openMenu = () => {
-        setMobileMenu(!mobileMenu)
-    }
-    return (
-        <>
-        {windowWidth > 768 ? (
+	];
+	const openMenu = () => {
+		setMobileMenu(!mobileMenu);
+	};
+	return (
+		<>
+			{windowWidth > 768 ? (
 
-            <Container>
+				<Container>
             
-            <MyName>
-            <LetText>let</LetText><NameText>Caio</NameText><EqualSign>=</EqualSign><OpenedCurlyBraces>{openedCurlyBrances}</OpenedCurlyBraces>
-            </MyName>
+					<MyName>
+						<LetText>let</LetText><NameText>Caio</NameText><EqualSign>=</EqualSign><OpenedCurlyBraces>{openedCurlyBrances}</OpenedCurlyBraces>
+					</MyName>
        
-            {menuOptions.map((item, index) => (
-                        <ul key={index}>
-                  <Propeties>
-  <a href={item.path}>{item.title}</a>
-</Propeties>
+					{menuOptions.map((item, index) => (
+						<ul key={index}>
+							<Propeties>
+								<a href={item.path}>{item.title}</a>
+							</Propeties>
 
-                        </ul>
-        ))}
+						</ul>
+					))}
           
-            <ClosedCurlyBraces>{closedCurlyBraces}</ClosedCurlyBraces>
+					<ClosedCurlyBraces>{closedCurlyBraces}</ClosedCurlyBraces>
 
-        </Container>
-            ) : (
-                <Container>
-                     <MyName>
-            <NameText>let</NameText><NameText>Caio</NameText><NameText>=</NameText><OpenedCurlyBraces>{openedCurlyBrances}</OpenedCurlyBraces>
-            </MyName>
-                    <StyledAiOutlineMenu onClick={openMenu} />
+				</Container>
+			) : (
+				<Container>
+					<MyName>
+						<NameText>let</NameText><NameText>Caio</NameText><NameText>=</NameText><OpenedCurlyBraces>{openedCurlyBrances}</OpenedCurlyBraces>
+					</MyName>
+					<StyledAiOutlineMenu onClick={openMenu} />
                   
-                    {mobileMenu && (
-                    <MenuToMobile>
-                    {menuOptions.map((item, index) => (
-                        <ul key={index}>
-                    <Propeties><a href={item.path}>{item.title}</a></Propeties>
-                        </ul>
-        ))}
-        <ClosedCurlyBraces>{closedCurlyBraces}</ClosedCurlyBraces>
-    </MenuToMobile>
-)}
+					{mobileMenu && (
+						<MenuToMobile>
+							{menuOptions.map((item, index) => (
+								<ul key={index}>
+									<Propeties><a href={item.path}>{item.title}</a></Propeties>
+								</ul>
+							))}
+							<ClosedCurlyBraces>{closedCurlyBraces}</ClosedCurlyBraces>
+						</MenuToMobile>
+					)}
                  
 
                     
-                </Container>
-            )}
-        </>
-    )
-}
+				</Container>
+			)}
+		</>
+	);
+};
 export default Header;

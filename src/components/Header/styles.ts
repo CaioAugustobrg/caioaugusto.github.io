@@ -1,6 +1,6 @@
-import styled from 'styled-components'
-import {AiOutlineMenu} from 'react-icons/ai'
-const breakpoint = '768px';
+import styled from "styled-components";
+import {AiOutlineMenu} from "react-icons/ai";
+const breakpoint = "768px";
 export const Container = styled.header`
 width: 100%;
 height: 70px;
@@ -13,7 +13,7 @@ ul {
     display: flex;
     list-style: none;
 }
-`
+`;
 
 export const MyName = styled.div`
 display: flex;
@@ -23,7 +23,7 @@ background-color: inherit;
     
     margin-left: 16px;
   }
-`
+`;
 
 export const Propeties = styled.li`
 min-width: 50px;
@@ -44,29 +44,29 @@ list-style: none;
    a {
       color: inherit;
     }
-`
+`;
 
 export const NameText = styled.h3`
 color: #6fb7ed;
 padding-right: 8px;
 background-color: inherit;
-`
+`;
 export const LetText = styled.h3`
 color: #348feb;
 padding-right: 8px;
 background-color: inherit;
-`
+`;
 
 export const EqualSign = styled.h3`
 color: #ffffff;
 padding-right: 8px;
 background-color: inherit;
-`
+`;
 export const OpenedCurlyBraces = styled.h2`
 background-color: inherit;
 color: #bd34eb;
 
-`
+`;
 
 export const ClosedCurlyBraces = styled.h2`
 color: #bd34eb;
@@ -76,7 +76,7 @@ background-color: inherit;
     display: flex;
   }
 
-`
+`;
 
 export const StyledAiOutlineMenu = styled(AiOutlineMenu)`
 font-size: 30px;
@@ -84,7 +84,7 @@ margin-right: 16px;
 justify-content: right;
 margin-left: auto;
 //align-items: flex-end;
-`
+`;
 
 export const MenuToMobile = styled.nav`
   position: absolute;
@@ -104,4 +104,4 @@ padding: 0;
     list-style: none;
     
   }
-`
+`;

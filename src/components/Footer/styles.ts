@@ -4,13 +4,13 @@ const breakpoint = 768;
 
 export const Container = styled.footer`
     width: 100%;
-    margin-top: 2%;
+    margin-top: 35px; 
     display: flex;
     justify-content: center;
     align-items: center;
     overflow: hidden;
     outline: 0;
-    margin-bottom: 20px;
+    margin-bottom: 10px; 
     
 
     @media (max-width: ${breakpoint}px) {

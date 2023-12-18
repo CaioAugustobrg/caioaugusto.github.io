@@ -1,80 +1,81 @@
-import { useState } from "react";
+/* eslint-disable react/no-unescaped-entities */
+import React, { useState } from "react";
 import MainTitle from "../../components/MainTitle";
 import { Container,Year,PostList,PostItem,Post,Publication,ThisPublication, PublicationTitle, StyledBsArrowLeft } from "./styles";
 
 
 
 const Publications = () => {
-  const [showPublication, setShowPublication] = useState(false)
-  const handlePublication = () => {
-    setShowPublication(!showPublication)
-  }
-return (
+	const [showPublication, setShowPublication] = useState(false);
+	const handlePublication = () => {
+		setShowPublication(!showPublication);
+	};
+	return (
 
-    <Container>
-       {
-      showPublication ? (
-        <ThisPublication>
-          <div>
+		<Container>
+			{
+				showPublication ? (
+					<ThisPublication>
+						<div>
 
-          <StyledBsArrowLeft onClick={handlePublication} />
-          <PublicationTitle><a href="https://medium.com/@caioaugustobrg" target="_blank" rel="noopener noreferrer">
+							<StyledBsArrowLeft onClick={handlePublication} />
+							<PublicationTitle><a href="https://medium.com/@caioaugustobrg" target="_blank" rel="noopener noreferrer">
            Como criar um servidor em Node.js/Express.js
-          </a></PublicationTitle>
-          </div>
-          <p>
+							</a></PublicationTitle>
+						</div>
+						<p>
           The article aims to instruct on creating a Node.js server using the Express.js framework. It begins by illustrating the initial steps in setting up
           the project structure: creating a directory named "server" within a folder labeled "My Application" and executing the "npm init -y" command to generate
           the package.json file, which manages the project's dependencies.
-              </p>
-              <p>
+						</p>
+						<p>
               Following this, we add Express.js to the project using the "npm install express" command. As a front-end developer, it's vital to become acquainted
               with this phase, as Express.js is a robust tool for constructing servers in Node.js. Subsequently, we craft a file named "server.js" within the "server"
               folder.
-              </p>
-             <p>
+						</p>
+						<p>
              The primary question when it comes to frontend development is the choice of a JavaScript technology that makes programming a site of similar
               scope to Simplifica Doctor feasible. The choice for Simplifica Doctor was React. By using React, developers can focus on the logic and behavior
               of the user interface without being directly concerned with DOM manipulation and the like. 
-             </p>
-           <p>
+						</p>
+						<p>
            The server's code employs Express.js to define two routes: a main route ("/") and an information route ("/about"). As someone who works with React.js and
           JavaScript, utilizing Express.js for route creation can prove highly beneficial in web application development. Furthermore, the server incorporates
           middleware that executes if the URL doesn't match any of the defined routes.
-           </p>
-            <p>
+						</p>
+						<p>
             I encourage the reader, who is also studying Node.js, SQL, and Express.js, to delve deeper into researching Express.js request and response objects,
              HTTP verbs, and the status codes assignable to server responses. Additionally, understanding CORS is crucial.
-            </p>
-  <p>
+						</p>
+						<p>
   The article is pedagogically written, offering comprehensive explanations of the commands and concepts employed throughout the server creation process. Serving
    as a developer who also employs GIT and operates within a Linux environment, it's important to adhere to the article's guidance and refer to the official Express.js documentation for a better grasp.
-    </p>
-    <p>
+						</p>
+						<p>
     In conclusion, I extend gratitude to the reader for perusing the article and provide my contact information, including my LinkedIn profile, to facilitate ongoing
      knowledge sharing regarding React.js, JavaScript, Node.js, SQL, Express.js, GIT, and Linux.
-    </p>
-          </ThisPublication>
-      ) : (
-        <Publication>
+						</p>
+					</ThisPublication>
+				) : (
+					<Publication>
 
-        <MainTitle title="Publications" />
-        <Post>
+						<MainTitle title="Publications" />
+						<Post>
    
      
   
-        <Year>2023</Year>
-        <PostList>
-          <PostItem onClick={handlePublication} >
+							<Year>2023</Year>
+							<PostList>
+								<PostItem onClick={handlePublication} >
              Como criar um servidor em Node.js/Express.js
-             </PostItem>
-        </PostList>
-        </Post>
-        </Publication>
-      )
-    }
-    </Container>
+								</PostItem>
+							</PostList>
+						</Post>
+					</Publication>
+				)
+			}
+		</Container>
      
-  );
+	);
 };
 export default Publications;

@@ -1,6 +1,6 @@
-import styled from 'styled-components';
-const breakpoint = '768px'
-import {BsArrowLeft} from 'react-icons/bs'
+import styled from "styled-components";
+const breakpoint = "768px";
+import {BsArrowLeft} from "react-icons/bs";
 export const Container = styled.div`
  width: 100%;
  max-width: 720px;
@@ -23,17 +23,17 @@ text-align: left;
 /* padding: 20px; */
 height: 705px;
 margin: 20px auto;
-`
+`;
 export const Year = styled.div`
 margin-right: 1.8em;
 font-size: 1.6em;
 opacity: .6;
 
-`
+`;
 
 export const PostList = styled.ul`
 
-`
+`;
 
 export const PostItem = styled.li`
      list-style: circle;
@@ -44,12 +44,12 @@ export const PostItem = styled.li`
     &:hover {
         color: #6fb7ed;
     }
-`
+`;
 export const Post = styled.div`
 display: flex;
 //justify-content: center;
 align-items: center;
-`
+`;
 
 export const ThisPublication = styled.div`
 z-index: 499;
@@ -68,7 +68,7 @@ p {
     display: flex;
     text-align: justify;
    }
-`
+`;
 
 export const PublicationTitle = styled.h2`
  font-size: 1.5rem;
@@ -79,7 +79,7 @@ export const PublicationTitle = styled.h2`
  :hover {
         color: #6fb7ed;
     }
-`
+`;
 
 export const StyledBsArrowLeft = styled(BsArrowLeft)`
     cursor: pointer;
@@ -89,4 +89,4 @@ export const StyledBsArrowLeft = styled(BsArrowLeft)`
     &:hover {
         color: #6fb7ed;
     }
-`
+`;

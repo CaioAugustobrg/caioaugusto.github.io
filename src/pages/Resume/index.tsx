@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 
 import MainTitle from "../../components/MainTitle";
 import {
@@ -11,7 +12,7 @@ import {
 	SummaryText,
 	SummaryTitle
 } from "./styles";
-
+import React from "react";
 const Resume = () => {
 	return (
 

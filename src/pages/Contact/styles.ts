@@ -6,6 +6,7 @@ export const Container = styled.div`
  text-align: left;
  //padding: 20px;
 overflow: hidden;
+height: 800px;
  margin: auto;
   @media (max-width: ${breakpoint}) {
 width: 95%;
@@ -43,7 +44,7 @@ li {
       color: inherit;
     }
 }
-`
+`;
 
 export const EmailString = styled.h2`
  padding: 15px 0 10px 25px;
@@ -52,4 +53,4 @@ export const EmailString = styled.h2`
       text-decoration: underline;
 
     };
-`
+`;

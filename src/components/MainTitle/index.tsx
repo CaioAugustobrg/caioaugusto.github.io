@@ -6,11 +6,11 @@ interface MainTitleProps {
 }
 
 const MainTitle: React.FC<MainTitleProps> = ({ title }) => {
-  return (
-    <Container>
-        {title}
-    </Container>
-  );
+	return (
+		<Container>
+			{title}
+		</Container>
+	);
 };
 
 export default MainTitle;

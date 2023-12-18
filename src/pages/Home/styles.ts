@@ -34,7 +34,7 @@ a {
   width: 35px;
   height: 35px;
 }
-`
+`;
 
 export const StyledAiFillLinkedin = styled(AiFillLinkedin)`
 font-size: 35px;
@@ -45,7 +45,7 @@ font-size: 35px;
     
 }
 /* color: #a9a9b3 */
-`
+`;
 export const StyledAiFillGithub = styled(AiOutlineGithub)`
 font-size: 35px;
 &:hover {
@@ -54,7 +54,7 @@ font-size: 35px;
   transform: scale(1.1);
     
 }
-`
+`;
 export const StyledAiMediumSquare = styled(AiFillMediumSquare)`
 font-size: 35px;
 &:hover {
@@ -63,16 +63,16 @@ font-size: 35px;
   transform: scale(1.1);
     
 }
-`
+`;
 export const MyInformations = styled.main`
 margin: 200px auto auto auto;
 height: 500px;
 /* width: 500px; */
 flex-direction: column;
-`
+`;
 
 export const Position = styled.h3`
 min-width: 50px;
 padding: 0  30px;
 font-weight: 350;
-`
+`;
