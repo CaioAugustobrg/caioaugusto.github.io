@@ -56,10 +56,11 @@ export const EducationDetails = styled.ul`
    margin-left: 20px;
    margin-bottom: 7px;
    text-indent: 50px;
-   @media (max-width: ${breakpoint}) {
-
-}
+  
      }
+      @media (max-width: ${breakpoint}) {
+ margin-top:15px ;
+}
 
 `;
 

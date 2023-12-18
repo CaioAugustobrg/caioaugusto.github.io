@@ -69,9 +69,14 @@ const Resume = () => {
 					<SkillItem>Javascript</SkillItem>
 					<SkillItem>Node.js</SkillItem>
 					<SkillItem>Express.js</SkillItem>
-					<SkillItem>SQL</SkillItem>
+					<SkillItem>Nest.js</SkillItem>
+					<SkillItem>SQL: Prisma and TypeORM</SkillItem>
 					<SkillItem>Typescript</SkillItem>
 					<SkillItem>Jest - Tests</SkillItem>
+					<SkillItem>Design Patterns</SkillItem>
+					<SkillItem>Clean Architecture</SkillItem>
+					<SkillItem>MVC</SkillItem>
+					<SkillItem>SOLID</SkillItem>
 					<SkillBigItem>Front end developer</SkillBigItem>
 					<SkillItem>Javascript</SkillItem>
 					<SkillItem>Typescript</SkillItem>
@@ -91,7 +96,7 @@ const Resume = () => {
 			</Education>
     
 			<Summary>
-				<SummaryTitle>Resumo Profissional</SummaryTitle>
+				<SummaryTitle>Professional Summary</SummaryTitle>
 				<SummaryText>
 					<p>
 					I am a developer and I am in the last semester of my History degree.
