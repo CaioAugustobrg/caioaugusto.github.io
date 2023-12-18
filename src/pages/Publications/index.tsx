@@ -1,5 +1,6 @@
+/* eslint-disable react/react-in-jsx-scope */
 /* eslint-disable react/no-unescaped-entities */
-import React, { useState } from "react";
+import  { useState } from "react";
 import MainTitle from "../../components/MainTitle";
 import { Container,Year,PostList,PostItem,Post,Publication,ThisPublication, PublicationTitle, StyledBsArrowLeft } from "./styles";
 

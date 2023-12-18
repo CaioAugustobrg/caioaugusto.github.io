@@ -1,6 +1,7 @@
+/* eslint-disable react/react-in-jsx-scope */
 import MainTitle from "../../components/MainTitle";
 import { ContactDiv, Container, EmailsDiv, EmailString } from "./styles";
-import React from "react";
+//import React from "react";
 
 const openEmailInNewTab = () => {
 	window.open("mailto:caioaugustobrg@gmail.com");

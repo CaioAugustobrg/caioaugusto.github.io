@@ -1,13 +1,14 @@
+/* eslint-disable react/react-in-jsx-scope */
 import {
 	BrowserRouter
 	as Router,
 	Route,
 	Routes
-} from 'react-router-dom';
-import Home from '../pages/Home'
-import Contact from '../pages/Contact'
-import Resume from '../pages/Resume';
-import Publications from '../pages/Publications';
+} from "react-router-dom";
+import Home from "../pages/Home";
+import Contact from "../pages/Contact";
+import Resume from "../pages/Resume";
+import Publications from "../pages/Publications";
 
 const AppRoutes = () => {
 	return (

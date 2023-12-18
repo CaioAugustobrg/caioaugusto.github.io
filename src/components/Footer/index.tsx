@@ -1,5 +1,6 @@
+/* eslint-disable react/react-in-jsx-scope */
 import { Container, Rights, ToHome } from "./styles";
-import React from "react";
+//import React from "react";
 
 const Footer = () => {
 	return (

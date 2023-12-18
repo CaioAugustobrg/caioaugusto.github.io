@@ -1,3 +1,4 @@
+/* eslint-disable react/react-in-jsx-scope */
 import { Container,MyInformations,Name,
 	Position,
 	SocialMedia,
@@ -5,7 +6,6 @@ import { Container,MyInformations,Name,
 	StyledAiFillLinkedin,
 	StyledAiMediumSquare
 } from "./styles";
-import React from "react";
 import myPicture from "../../assets/myPicture.jpeg";
 
 const Home = () => {    
