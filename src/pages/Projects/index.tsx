@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+/* eslint-disable react/react-in-jsx-scope */
+import  { useState } from "react";
 import MainTitle from "../../components/MainTitle";
 import { Publication, Post, Year, PostList, PostItem } from "../Publications/styles";
 import { Container } from "./styles";
