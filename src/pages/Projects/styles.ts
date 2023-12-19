@@ -5,6 +5,7 @@ export const Container = styled.main`
   margin: auto;
   display: flex;
   width: 720px;
+  height: 85vh;
   flex-direction: column;
   @media (max-width: ${breakpoint}) {
 width: 95%;
