@@ -6,7 +6,7 @@ export const Container = styled.div`
  text-align: left;
  //padding: 20px;
 overflow: hidden;
-height: 800px;
+height: 85vh;
  margin: auto;
   @media (max-width: ${breakpoint}) {
 width: 95%;

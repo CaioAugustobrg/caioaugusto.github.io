@@ -70,6 +70,13 @@ const Publications = () => {
 								<PostItem onClick={handlePublication} >
              Como criar um servidor em Node.js/Express.js
 								</PostItem>
+								<PostItem>
+									<a href="https://www.academia.edu/111775745/Entre_os_zeros_e_uns_de_uma_m%C3%A1quina_h%C3%A1_o_trabalho_do_historiador" target="_blank" rel="noopener noreferrer">
+									Entre os zeros e uns de uma máquina há o trabalho do historiador
+
+									</a>
+							
+								</PostItem>
 							</PostList>
 						</Post>
 					</Publication>

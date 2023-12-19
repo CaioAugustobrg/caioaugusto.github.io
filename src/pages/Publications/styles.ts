@@ -26,8 +26,9 @@ margin: 20px auto;
 `;
 export const Year = styled.div`
 margin-right: 1.8em;
-font-size: 1.6em;
+font-size: 1.8em;
 opacity: .6;
+margin-bottom: 45px;
 
 `;
 
