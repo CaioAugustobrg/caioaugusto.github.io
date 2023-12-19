@@ -34,7 +34,8 @@ const Header = () => {
 			path: "/resume"
 		},
 		{
-			title: "Projects"
+			title: "Projects",
+			path: "/projects"
 		},
 		{
 			title: "Publications",
@@ -44,9 +45,9 @@ const Header = () => {
 			title: "Contact",
 			path: "/contact"
 		},
-		{
-			title: "en"
-		},
+	
+	
+		
 
 	];
 	const openMenu = () => {
