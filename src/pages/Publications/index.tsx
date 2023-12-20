@@ -55,6 +55,12 @@ const Publications = () => {
 						<p>
     In conclusion, I extend gratitude to the reader for perusing the article and provide my contact information, including my LinkedIn profile, to facilitate ongoing
      knowledge sharing regarding React.js, JavaScript, Node.js, SQL, Express.js, GIT, and Linux.
+						</p><p>
+            Read the text on: <a
+								href="https://medium.com/@caioaugustobrg/como-criar-um-servidor-em-node-js-express-js-7619fd5d18ac"
+								target="_blank"
+								rel="noopener noreferrer"
+							>MEDIUM</a> 
 						</p>
 					</ThisPublication>
 				) : (
@@ -62,9 +68,6 @@ const Publications = () => {
 
 						<MainTitle title="Publications" />
 						<Post>
-   
-     
-  
 							<Year>2023</Year>
 							<PostList>
 								<PostItem onClick={handlePublication} >

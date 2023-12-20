@@ -21,12 +21,12 @@ const DisplaySearchProject: React.FC<DisplayProjectProps> = ({
 							target="_blank"
 							rel="noopener noreferrer"
 						>
-              Buscador de artigos sobre o Brasil colônia
+						Oxossi
 						</a>
 					</PublicationTitle>
 				</div>
 				<p>
-          I'm developing a search engine for articles on colonial Brazil, which
+          I'm developing a search engine for articles about colonial Brazil, which
           is a "sister" project to the "Goyaz" project. This heuristic tool is
           being thought of as a kind of "google" tailor-made for historians.
           That is, with specialized search fields so that the search returns

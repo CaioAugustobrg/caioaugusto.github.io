@@ -41,7 +41,7 @@ const Projects = () => {
                                     Goyaz
 								</PostItem>
 								<PostItem onClick={() => handleProjectClick("search")}>
-                                    Buscador de artigos sobre o Brasil colônia
+                                    Oxossi
 								</PostItem>
 							</PostList>
 						</Post>

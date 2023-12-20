@@ -8,7 +8,7 @@ export const Container = styled.div`
  //padding: 20px;
 overflow: hidden;
  margin: auto;
- height: 85vh;
+ min-height: 85vh;
   @media (max-width: ${breakpoint}) {
 width: 95%;
 display: flex;
@@ -41,6 +41,9 @@ export const PostItem = styled.li`
     border-bottom: 1px grey dashed;
     align-items: baseline;
     padding: 12px 0;
+    a {
+        color: inherit;
+    }
     cursor: pointer;
     &:hover {
         color: #6fb7ed;
