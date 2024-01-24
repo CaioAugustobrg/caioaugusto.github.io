@@ -35,13 +35,36 @@ const Projects = () => {
 					<>
 						<MainTitle title="Projects" />
 						<Post>
-							<Year>2023</Year>
+							<Year>
+								<p>
+								2023
+								</p>
+							</Year>
 							<PostList>
 								<PostItem onClick={() => handleProjectClick("goyaz")}>
                                     Goyaz
 								</PostItem>
 								<PostItem onClick={() => handleProjectClick("search")}>
                                     Oxossi
+								</PostItem>
+								<PostItem>
+								
+									<a
+										href="https://github.com/CaioAugustobrg/online-mall.git"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+                  Online Mall
+									</a>
+								</PostItem>
+								<PostItem>
+									<a
+										href="https://github.com/CaioAugustobrg"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+                  More projects at my github
+									</a>
 								</PostItem>
 							</PostList>
 						</Post>
