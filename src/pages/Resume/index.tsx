@@ -30,7 +30,7 @@ const Resume = () => {
 			<Education>
 				<EducationTitle>Professional experience</EducationTitle>
 				<EducationDetails>
-					<SkillBigItem><a href='https://simplificadoctor.com' target="_blank" rel="noopener noreferrer">Simplifica Doctor</a> -- (04/2023 - Today)  </SkillBigItem>
+					<SkillBigItem>Simplifica Doctor -- (04/2023 - Today)  </SkillBigItem>
 					<p>
             Once upon a time, there was no need for an intersection between dental education and teaching software. However, today,
               an indispensable platform will be created to offer users interested in dentistry the possibility of accessing knowledge produced by its experts.
@@ -76,6 +76,7 @@ const Resume = () => {
 					<SkillItem>Design Patterns</SkillItem>
 					<SkillItem>Clean Architecture</SkillItem>
 					<SkillItem>MVC</SkillItem>
+					<SkillItem>Docker</SkillItem>
 					<SkillItem>SOLID</SkillItem>
 					<SkillBigItem>Front end developer</SkillBigItem>
 					<SkillItem>Javascript</SkillItem>
