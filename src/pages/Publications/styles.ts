@@ -26,9 +26,10 @@ margin: 20px auto;
 `;
 export const Year = styled.div`
 margin-right: 1.8em;
+padding-top: 6px;
 font-size: 1.8em;
 opacity: .6;
-margin-bottom: 45px;
+margin-bottom: bottom;
 
 `;
 
@@ -52,7 +53,6 @@ export const PostItem = styled.li`
 export const Post = styled.div`
 display: flex;
 //justify-content: center;
-align-items: center;
 `;
 
 export const ThisPublication = styled.div`
